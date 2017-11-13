@@ -55,11 +55,8 @@ def get_average_age_for_season(data, season)
   data.each do |k, v|
     if season == k
       v.each do |contestant|
-        sum += contestant["age"]
-        counter += 1
         binding.pry
       end
     end
-    return sum / counter
   end
 end
