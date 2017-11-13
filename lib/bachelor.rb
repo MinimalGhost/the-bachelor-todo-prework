@@ -50,13 +50,7 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  sum = 0
-  count = 0
-  season.each do |k, v|
-      v.each do |contestant|
-      # sum += contestant["age"]
-      # count += 1
-    end
+  data.each do |k, v|
+    binding.pry
   end
-  # return sum / count
 end
